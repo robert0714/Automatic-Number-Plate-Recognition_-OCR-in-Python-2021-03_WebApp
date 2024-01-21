@@ -2,7 +2,10 @@
 For Anthos Sandbox
 
 ```
-sudo  apt install tesseract-ocr
+sudo apt install -y  p7zip-full tesseract-ocr 
+
+7z x  static/models/object_detection.7z.001  -ostatic/models/
+
 
 pip install opencv-python
 pip install matplotlib
